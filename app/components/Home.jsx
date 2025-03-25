@@ -17,29 +17,28 @@ const Home = () => {
       >
         <div className="flex-1 text-center lg:text-left px-6 sm:px-12 lg:px-24 mt-16 sm:mt-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Streamline Your <br />
-            Entity and Equity <br />
-            Management
+            The Future of Corporate Management Starts Here
           </h1>
           <p className="mt-4 text-sm sm:text-lg text-gray-400 font-bold leading-6">
-            Simplify compliance, manage stakeholders,
-            <br /> and drive growth with corprite's intuitive platform.
+          Modern tools for law firms, investors, and founders.
+          Powered by secure,blockchain-backed infrastructure.
+          Trusted by forward-thinking firms and legal innovators.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 mt-6 font-bold items-center justify-center lg:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 mt-6 font-bold items-center justify-center ">
             <Link href="/contact" passHref>
-              <button className="bg-white text-black py-3 px-8 sm:py-4 sm:px-12 rounded-xl hover:bg-gray-800 hover:text-white transition-all duration-300">
+              <button className="bg-white text-black  py-3 px-8 sm:py-4 sm:px-12 rounded-xl hover:bg-gray-800 hover:text-white transition-all duration-300">
                 Request a Demo
               </button>
             </Link>
-            <Link href="/pricing" passHref>
+            {/* <Link href="/pricing" passHref>
               <button
                 className="text-white py-3 px-8 sm:py-4 sm:px-12 rounded-xl relative overflow-hidden"
                 style={{ backgroundImage: "url('/images/button.png')" }}
               >
                 View Pricing
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
 

@@ -50,7 +50,9 @@ const About = () => {
         <footer className=" shadow-lg mt-auto">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <nav className="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0">
-              <ul className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-3">
+              <p className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-3">Built in Canada. Trusted globally.</p>
+
+              {/* <ul className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-3">
                 <li>
                   <a
                     href="/"
@@ -91,7 +93,7 @@ const About = () => {
                     Contact
                   </a>
                 </li>
-              </ul>
+              </ul> */}
 
               <div className="flex justify-center">
                 <Image src={Logo} alt="Logo" className="logo" />

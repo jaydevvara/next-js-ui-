@@ -15,7 +15,7 @@ const SliderTest = () => {
       image: '/images/documentV1.png',
       title: 'Digital Minute Book',
       content:
-        'The digital minute book lets users upload multiple documents simultaneously, organize them automatically, and edit or enhance them with AI tools. Documents can be signed directly within the platform, and the entire minute book can be instantly downloaded for seamless corporate record management.',
+        'Upload multiple documents at once and organize them with custom tabs.The full minute book is instantly downloadable—making corporate record management fast, smart, and seamless.',
     },
     {
       image: '/images/Activity1.png',

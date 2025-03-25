@@ -21,10 +21,10 @@ const Navbar = () => {
             width={64}
           />
         </Link>
-        <p className="text-2xl font-bold text-white ml-2">CORPRITE</p>
+        <p className="text-2xl font-bold text-white ml-2">CorpRite</p>
       </div>
 
-      <ul className="hidden md:flex gap-6 lg:gap-12 text-gray-400">
+      {/* <ul className="hidden md:flex gap-6 lg:gap-12 text-gray-400">
         <li>
           <Link href="/" className="hover:text-white transition duration-300">
             Home
@@ -47,7 +47,7 @@ const Navbar = () => {
             B2C
           </Link>
         </li>
-      </ul>
+      </ul> */}
 
       <div className="md:hidden flex items-center" onClick={toggleMenu}>
         <button className="text-white focus:outline-none">
